@@ -41,10 +41,12 @@ namespace DodgeGame
         SolidBrush whiteBrush = new SolidBrush(Color.White);
 
         Random randGen = new Random();
+        
         int randValue = 0;
 
 
 
+        
         int groundHeight = 50;
         public Form1()
         {

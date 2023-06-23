@@ -46,9 +46,10 @@
             this.p1.BackColor = System.Drawing.Color.Transparent;
             this.p1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.p1.ForeColor = System.Drawing.Color.Transparent;
-            this.p1.Location = new System.Drawing.Point(12, 9);
+            this.p1.Location = new System.Drawing.Point(37, 17);
+            this.p1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.p1.Name = "p1";
-            this.p1.Size = new System.Drawing.Size(100, 23);
+            this.p1.Size = new System.Drawing.Size(200, 44);
             this.p1.TabIndex = 1;
             this.p1.Text = "p1Score";
             // 
@@ -57,9 +58,10 @@
             this.p2.BackColor = System.Drawing.Color.Transparent;
             this.p2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.p2.ForeColor = System.Drawing.Color.Transparent;
-            this.p2.Location = new System.Drawing.Point(472, 9);
+            this.p2.Location = new System.Drawing.Point(938, 17);
+            this.p2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.p2.Name = "p2";
-            this.p2.Size = new System.Drawing.Size(100, 23);
+            this.p2.Size = new System.Drawing.Size(200, 44);
             this.p2.TabIndex = 2;
             this.p2.Text = "p2Score";
             this.p2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -69,23 +71,25 @@
             this.timelabel.BackColor = System.Drawing.Color.Transparent;
             this.timelabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timelabel.ForeColor = System.Drawing.Color.Transparent;
-            this.timelabel.Location = new System.Drawing.Point(219, 7);
+            this.timelabel.Location = new System.Drawing.Point(451, 13);
+            this.timelabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.timelabel.Name = "timelabel";
-            this.timelabel.Size = new System.Drawing.Size(100, 23);
+            this.timelabel.Size = new System.Drawing.Size(200, 44);
             this.timelabel.TabIndex = 4;
             this.timelabel.Text = "time";
             this.timelabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(584, 561);
+            this.ClientSize = new System.Drawing.Size(1168, 1079);
             this.Controls.Add(this.timelabel);
             this.Controls.Add(this.p2);
             this.Controls.Add(this.p1);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
